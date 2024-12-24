@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#ECEFF1">
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|left"
+        android:background="#FFFFFF"
+        android:padding="8dp"
+        android:text="CATCS                FC-82MSP"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/Scientific Calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:padding="16dp"
+        android:text="Scientific Calculator"
+        android:textColor="#FF0000"
+        android:textSize="36sp" />
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="16dp"
+        android:background="#696969"
+        android:text=""
+        android:textSize="32sp"
+        android:textColor="#000000"
+        android:elevation="4dp"
+        />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:columnCount="4"
+        android:padding="4dp"
+        android:rowCount="6">
+        <Button
+            android:backgroundTint="#696969"
+            android:style="@style/calculatorButton"
+            android:text="SHIFT" />
+        <Button
+            android:backgroundTint="#696969"
+            android:style="@style/calculatorButton"
+            android:text="ON" />
+        <Button
+            android:backgroundTint="#696969"
+            android:style="@style/calculatorButton"
+            android:text="ALPHA" />
+        <Button
+            android:backgroundTint="#696969"
+            android:style="@style/calculatorButton"
+            android:text="REPLAY" />
+        <Button
+            android:backgroundTint="#696969"
+            android:style="@style/calculatorButton"
+            android:text="MODE" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="x!" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="nCr" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="Pol(" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="x^3" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="A b/c" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="racine" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="x^2" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="^" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="log" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="ln" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="(-)" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="°,,," />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="hyp" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="sin" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="cos" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="tan" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="RCL" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="ENG" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="(" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text=")" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="," />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="M+" />
+        <Button
+            android:backgroundTint="#2F4F4F"
+            android:style="@style/calculatorButton"
+            android:text="pi" />
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="9"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="8"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="7"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="/"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="6"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="5"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="4"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="*"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="3"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="2"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="1"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="-"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="+"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="."
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="0"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="="
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FF0000"
+            android:style="@style/calculatorButton"
+            android:text="DEL"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FF0000"
+            android:style="@style/calculatorButton"
+            android:text="AC"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="EXP"
+            android:textColor="#000000"/>
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:style="@style/calculatorButton"
+            android:text="ANS"
+            android:textColor="#000000"/>
+    </GridLayout>
+</LinearLayout>
